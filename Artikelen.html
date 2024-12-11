@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital Magazine</title>
+        <link rel="stylesheet" href="Css/style.css">
+    </head>
+
+    <body>
+        <header class="webtitle">
+            <h1>Digital Magazine</h1>
+        </header>
+
+        <div id="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Artikelen.html">Artikelen</a></li>
+                <li><a href="Tutorial.html">Tutorial</a></li>
+                <li><a href="Over ons.html">Over ons</a></li>
+            </ul>            
+        </nav>
+        
+        <script>
+            function toggleMenu() {
+                const menu = document.getElementById('menu');
+                menu.classList.toggle('active');
+            }
+        </script>
+    </body>
+
+    
+
+</html>
